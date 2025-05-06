@@ -10,12 +10,13 @@ st.title("🔁 BFS Traversal with Queue Visualization")
 
 # Default graph
 default_graph = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F'],
-    'D': [],
-    'E': ['F'],
-    'F': []
+    "Austin": ["Dallas", "Houston"],
+    "Dallas": ["Denver", "Austin", "Chicago"],
+    "Houston": ["Atlanta"],
+    "Chicago": ["Denver"],
+    "Denver": ["Chicago","Atlanta"],
+    "Atlanta": ["Washington","Houston"],
+    "Washington": ["Atlanta","Dallas"]
 }
 
 # Sidebar for graph customization
